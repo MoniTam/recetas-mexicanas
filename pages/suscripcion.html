@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SUSCRIPCION </title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1 style="text-align: center;"> 🌯 BIENVENIDO A "PREPARANDO DELICIAS MEXICANAS" 🌮</h1>
+        <div style="text-align: center;">
+            <img src="../imagenes/mexico-city.jpg" alt="Mexico" width="1300px" height="370">
+        </div>
+        <hr>
+        <nav>
+            <ul>
+                <li ><a href="../index.html">INICIO</a></li>
+                <li ><a href="acerca-de-mi.html">ACERCA DE MÍ</a></li>
+                <li ><a href="recetas.html">RECETAS TRADICIONALES</a></li>
+                <li ><a href="suscripcion.html">SUSCRIPCIÓN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal (main) -->
+    <hr>
+    <main>
+        <!-- aquí va el form -->
+        <h2 style="text-align: center;"> 📝 Suscribete para recibir información sobre más recetas 📝 </h2>
+        <fieldset >
+            <legend> REGISTRO </legend>
+            <form>
+                <div>
+                    <label for="nombre"> Nombre de pila </label>
+                    <br>
+                    <input type="text" id="nombre" placeholder="Nombre de pila">
+                </div>
+                <br> <br>    <!--Salto de línea-->
+                <label for="apellido"> Apellido Paterno </label>
+                <br> 
+                <input type="text" id="apellido" placeholder="Apellido Paterno ">
+            </div>
+            <br> <br> <br>     <!--Salto de línea-->
+                <div>
+                    <label for="inputEmail"> Email </label>
+                    <input type="email" name="inputEmail" id="inputEmail" placeholder="user@correo.com">
+                </div>
+                <br> <br>   <!--Salto de línea-->
+                <div>
+                    <label for="nombrepais"> Nombre del país</label>
+                    <br>
+                    <select name="nombrepais" id="nombrepais">
+                    <option value ="mx"> México </option> 
+                    <option value ="col"> Colombia </option> 
+                    <option value ="arg"> Argentina </option> 
+                    <option value ="per"> Perú </option> 
+                    <option value ="chi"> Chile </option> 
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <p> Género</p>
+                    <input type="radio" name="gender" id="male"  value="male">
+                    <label for="male"> Masculino </label>
+                    <br>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female"> Femenino </label>
+                    <br>
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other"> Otro </label>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" name="legalPolicy" id="legalPolicy" value="true">
+                    <label for="legalPolicy"> Aceptar términos </label>
+                </div>
+                <div>
+                    <input type="checkbox" name="recibirCorreos" id="recibirCorreos" value="true">
+                    <label for="recibirCorreos"> Recibir Correos? </label>
+                </div>
+                <div style="text-align: center;">
+                <!-- <input type="submit" values="Sign up"> -->
+                    <button type="submit"> ENVIAR </button>
+                </div>
+            </form>
+        </fieldset>
+    </main>
+    <br>
+    <a href="../index.html"> ⬅️Volver al inicio</a>
+    <hr> 
+    <!-- Pie de página -->
+    <footer>
+        <hr>
+        <h2> Síguenos en nuestras redes sociales</h2>
+
+        <div>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="../imagenes/facebook-2815970_1280.jpg" alt="Facebook" width="30">
+            </a>
+            <p> Facebook</p>
+            </div>
+
+            <div>
+              <a href="https://www.instagram.com" target="_blank">
+                <img src="../imagenes/logo-7105561_1280.png" alt="Instagram" width="30">
+              </a>
+              <p> Instagram</p>
+            </div>
+
+            <div>
+              <a href="https://www.youtube.com" target="_blank">
+                <img src="../imagenes/youtube-3873587_1280.jpg" alt="YouTube" width="30">
+              </a>
+              <p> YouTube</p>
+              </div>    
+
+    <h5 style="text-align: center;">Todos los derechos reservados a Preparando Delicias Mexicanas 🤠</h5>
+
+    </footer>
+
+</body>
+</html>
